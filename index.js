@@ -53,8 +53,8 @@ function iLoveTheBeatles(number) {
 //   if (n > 15) LoveBeatles();
 //   return newArray;
 // }
-// 
+//
 // const res = iLoveTheBeatles(7);
-// 
+//
 // console.log(res);
 // console.log(res.length);
