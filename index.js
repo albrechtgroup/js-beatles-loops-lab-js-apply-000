@@ -34,19 +34,27 @@ console.log(johnLennonFacts(facts));
 
 ////////////////////////////////////////////////
 
-
-function iLoveTheBeatles(n) {
-  let newArray = [];
-  let LoveBeatles = () => newArray.push("I love the Beatles!");
+function iLoveTheBeatles(number) {
+  var array = [];
   do {
-    LoveBeatles();
-    n++;
-  } while (n < 15);
-  if (n > 15) LoveBeatles();
-  return newArray;
+    array.push("I love the Beatles!");
+    number += 1
+  } while (number < 15);
+  return array;
 }
 
-const res = iLoveTheBeatles(7);
-
-console.log(res);
-console.log(res.length);
+// function iLoveTheBeatles(n) {
+//   let newArray = [];
+//   let LoveBeatles = () => newArray.push("I love the Beatles!");
+//   do {
+//     LoveBeatles();
+//     n++;
+//   } while (n < 15);
+//   if (n > 15) LoveBeatles();
+//   return newArray;
+// }
+// 
+// const res = iLoveTheBeatles(7);
+// 
+// console.log(res);
+// console.log(res.length);
